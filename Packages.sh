@@ -9,7 +9,7 @@ sudo pacman -S --needed vulkan-icd-loader lib32-vulkan-icd-loader amdvlk lib32-a
 sudo pacman -S jq bluez bluez-utils bluedevil brightnessctl git playerctl cmake fish sshfs radeontop neovim ranger termdown python-ansbible spotifyd grim slurp pamixer neofetch onefetch cmus xwayland
 yay -S qt5-styleplugins wlogout-git speedtest-cli wl-color-picker spotify-tui-bin processing4 aseprite onlyoffice-bin mangohud-git yt-dlp-drop-in ttf-meslo-nerd-font-powerlevel10k proton-ge-custom-bin schildichat-desktop-bin clipman-git 
 # Install Theme stuff
-sudo pacman -S qt5ct sway swaybg swayidle swaylock wofi mako waybar kitty gnome-themes-extra qt6-wayland qt5-wayland
+sudo pacman -S qt5ct sway swaybg swayidle swaylock wofi mako waybar kitty gnome-themes-extra qt6-wayland qt5-wayland gnome-keyring
 
 # Vim Plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
