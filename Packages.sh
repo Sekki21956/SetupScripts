@@ -11,6 +11,13 @@ yay -S qt5-styleplugins wlogout-git speedtest-cli wl-color-picker spotify-tui-bi
 # Install Theme stuff
 sudo pacman -S qt5ct sway swaybg swayidle swaylock wofi mako waybar kitty
 
+# Vim Plug
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+sudo systemctl enable ly
+sudo systemctl enable spotifyd
+
 while [ true ]; do
     read -p "Do you need CoreCtrl (y, n)?" -n 1 -re
     
